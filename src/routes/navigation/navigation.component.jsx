@@ -7,7 +7,9 @@ const Navigation = () => {
   return (
     <>
       <nav>
-        <div className='logo'></div>
+        <div className='logo'>
+          <a href='/'>Logo</a>
+        </div>
         <ul className='menu'>
           <div className='menu__item toggle'>
             <span></span>

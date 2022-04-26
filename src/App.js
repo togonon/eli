@@ -3,12 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import Navigation from './routes/navigation/navigation.component';
 import Home from './routes/home/home';
 import Journal from './routes/journal/journal.component';
+import SignIn from './routes/sign-in/sign-in.component';
 
 import './App.scss';
-
-const SignIn = () => {
-  return <div>Sign In</div>;
-};
 
 const App = () => {
   return (
