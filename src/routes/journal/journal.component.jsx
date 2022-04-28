@@ -1,12 +1,15 @@
 import Fragment from 'react-dom';
+
 import Footer from '../../components/footer/footer.component';
+import SingleJournalHero from '../../components/page-heros/single-journal-hero.component';
 import './journals.style.scss';
 
 const Journal = () => {
   return (
     <>
+      <SingleJournalHero />
       <div className='wrapper'>
-        <h3 className='section__title'>Single Journal</h3>
+        {/* <h3 className='section__title'>Single Journal</h3> */}
         <div className='changelog__item'>
           <div className='changelog__meta'>
             <h4 className='changelog__title'>v0.7</h4>

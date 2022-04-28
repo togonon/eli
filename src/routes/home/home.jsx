@@ -1,7 +1,7 @@
 import Fragment from 'react-dom';
 import HomeJournals from '../journal/home-journal.component';
 import Footer from '../../components/footer/footer.component';
-import Hero from '../../routes/home/hero.component';
+import Hero from '../../components/page-heros/home-hero.component';
 import './home.styles.scss';
 
 const Home = () => {

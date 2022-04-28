@@ -1,11 +1,13 @@
 import { Fragment } from 'react';
+import JournalsHero from '../../components/page-heros/journals-hero.component';
 import Footer from '../../components/footer/footer.component';
 import './journals.style.scss';
 
 const Journals = () => {
   return (
     <>
-      <div className='changelog coding-journals'>
+      <JournalsHero />
+      <div className='coding-journals'>
         <div className='wrapper'>
           <h1 className='section__title'>Coding Journals</h1>
           <div className='changelog__item'>

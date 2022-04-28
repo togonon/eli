@@ -20,7 +20,7 @@ const Navigation = () => {
             </a>
           </li>
           <li className='menu__item'>
-            <a href='' className='link link--dark'>
+            <a href='#' className='link link--dark'>
               <i className='fa fa-github'></i> Github
             </a>
           </li>
@@ -31,6 +31,7 @@ const Navigation = () => {
           </li>
         </ul>
       </nav>
+
       <Outlet />
     </>
   );

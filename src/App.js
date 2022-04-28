@@ -14,8 +14,8 @@ const App = () => {
       <Route path='/' element={<Navigation />}>
         <Route index element={<Home />} />
         <Route path='journals' element={<Journals />} />
+        <Route path='journals/single-journal' element={<SingleJournal />} />
         <Route path='sign-in' element={<SignIn />} />
-        <Route pat='journals/single-journal' element={<SingleJournal />} />
       </Route>
     </Routes>
   );
