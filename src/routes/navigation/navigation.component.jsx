@@ -15,17 +15,17 @@ const Navigation = () => {
             <span></span>
           </div>
           <li className='menu__item'>
-            <a href='journals' className='link link--dark'>
+            <a href='/journals' className='link link--dark'>
               <i className='fa fa-book'></i>Coding Journals
             </a>
           </li>
           <li className='menu__item'>
-            <a href='#' className='link link--dark'>
+            <a href='/#' className='link link--dark'>
               <i className='fa fa-github'></i> Github
             </a>
           </li>
           <li className='menu__item sign-in'>
-            <a href='sign-in' className='link link--dark'>
+            <a href='/sign-in' className='link link--dark'>
               <i className='fa fa-github'></i> Sign In
             </a>
           </li>
