@@ -1,9 +1,12 @@
 import Fragment from 'react-dom';
+import './sign-in.component';
 
 const SignIn = () => {
   return (
     <>
-      <div>Sign In</div>
+      <div className='wrapper'>
+        <h2>Sign In</h2>
+      </div>
     </>
   );
 };

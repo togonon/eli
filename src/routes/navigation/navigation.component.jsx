@@ -15,8 +15,8 @@ const Navigation = () => {
             <span></span>
           </div>
           <li className='menu__item'>
-            <a href='journal' className='link link--dark'>
-              <i className='fa fa-book'></i> Journal
+            <a href='journals' className='link link--dark'>
+              <i className='fa fa-book'></i>Coding Journals
             </a>
           </li>
           <li className='menu__item'>

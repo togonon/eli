@@ -1,22 +1,13 @@
-import './home.styles.scss';
-import Journal from '../../routes/journal/journal.component';
-import Footer from '../../components/footer/footer.component';
 import Fragment from 'react-dom';
+import HomeJournals from '../journal/home-journal.component';
+import Footer from '../../components/footer/footer.component';
+import Hero from '../../routes/home/hero.component';
+import './home.styles.scss';
 
 const Home = () => {
   return (
     <>
-      <div class='hero'>
-        <h1 class='hero__title'>Eliezer Togonon</h1>
-        <p class='hero__description'>Front-end Developer</p>
-      </div>
-
-      <div class='hero__terminal'>
-        <pre>
-          {/* <!-- Place your demo code here --> */}
-          <code class='shell-session demo'>eliezer ~ $ </code>
-        </pre>
-      </div>
+      <Hero />
 
       <div class='wrapper'>
         <div class='installation '>
@@ -120,17 +111,17 @@ const Home = () => {
           </ul>
         </div>
 
-        <div class='callout'>
+        {/* <div class='callout'>
           <p>
             Read our documentation for advanced keybindings and customization
           </p>
           <a href='journal' class='button--primary'>
             Journal
           </a>
-        </div>
+          </div> */}
       </div>
 
-      <Journal />
+      <HomeJournals />
       <Footer />
     </>
   );

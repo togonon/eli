@@ -10,33 +10,32 @@ var getAll = function (selector, scope) {
 };
 
 // setup typewriter effect in the terminal demo
-if (document.getElementsByClassName('demo').length > 0) {
-  let i = 0;
-  let txt = `a.k.a. Eli
+// if (document.getElementsByClassName('demo').length > 0) {
+//   let i = 0;
+//   let txt = `you can call me Eli
 
-            [ a front-end developer; with skills on the following   ]
+//             [ front-end developer; with skills on the following   ]
 
-            ### skillset
+//             # my skillset
 
-            - Javascript
-            - HTML/CSS & Sass
-            - React ( Components, Hooks, and Redux )
-            - PostgreSQL, MongoDB, and MySQL
-            - WordPress ( Theme X/Pro, Divi, and Elementor )
-            - Hosting Management ( WHM, cPanel )
-            - working knowledge on PHP/MySQL for WordPress Development`;
-  const speed = 60;
+//             - Javascript
+//             - React ( Components, Hooks, Routes, and Redux )
+//             - HTML/CSS & Sass
+//             - Java, C#
+//             - PostgreSQL, MongoDB, and MySQL
+//             - PHP/MySQL, WP Theme & Plugin Developement`;
+//   const speed = 60;
 
-  function typeItOut() {
-    if (i < txt.length) {
-      document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeItOut, speed);
-    }
-  }
+//   function typeItOut() {
+//     if (i < txt.length) {
+//       document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
+//       i++;
+//       setTimeout(typeItOut, speed);
+//     }
+//   }
 
-  setTimeout(typeItOut, 1800);
-}
+//   setTimeout(typeItOut, 1800);
+// }
 
 // toggle tabs on codeblock
 window.addEventListener('load', function () {

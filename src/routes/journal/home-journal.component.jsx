@@ -1,18 +1,14 @@
-import { Fragment } from 'react';
-import Footer from '../../components/footer/footer.component';
-import './journals.style.scss';
+import Fragment from 'react-dom';
 
-const Journals = () => {
+const HomeJournals = () => {
   return (
     <>
-      <div className='changelog coding-journals'>
+      <div className='changelog'>
         <div className='wrapper'>
-          <h1 className='section__title'>Coding Journals</h1>
+          <h3 className='section__title'>Coding Journal</h3>
           <div className='changelog__item'>
             <div className='changelog__meta'>
-              <h3 className='changelog__title'>
-                <a href='journals/single-journal'>v0.7</a>
-              </h3>
+              <h4 className='changelog__title'>v0.7</h4>
               <small className='changelog__date'>10/12/2017</small>
             </div>
             <div className='changelog__detail'>
@@ -26,9 +22,7 @@ const Journals = () => {
           </div>
           <div className='changelog__item'>
             <div className='changelog__meta'>
-              <h3 className='changelog__title'>
-                <a href='#'>v0.6</a>
-              </h3>
+              <h4 className='changelog__title'>v0.6</h4>
               <small className='changelog__date'>7/30/2017</small>
             </div>
             <div className='changelog__detail'>
@@ -41,9 +35,7 @@ const Journals = () => {
           </div>
           <div className='changelog__item'>
             <div className='changelog__meta'>
-              <h3 className='changelog__title'>
-                <a href='#'>v0.5</a>
-              </h3>
+              <h4 className='changelog__title'>v0.5</h4>
               <small className='changelog__date'>5/10/2017</small>
             </div>
             <div className='changelog__detail'>
@@ -53,11 +45,16 @@ const Journals = () => {
               </ul>
             </div>
           </div>
+
+          <div className='changelog__callout'>
+            <a href='/journals' className='button--secondary'>
+              More coding journals
+            </a>
+          </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 };
-export default Journals;
+
+export default HomeJournals;
