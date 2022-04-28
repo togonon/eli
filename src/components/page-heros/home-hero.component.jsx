@@ -1,5 +1,7 @@
 // import hljs from 'highlight.js';
 
+import React, { Component } from 'react';
+
 const Hero = () => {
   // const highlightedCode = hljs.highlightAuto('Hello World!').value;
   let i = 0;
@@ -39,7 +41,7 @@ const Hero = () => {
       <div className='hero__terminal'>
         <pre>
           {/* <!-- Place your demo code here --> */}
-          <code className='shell-session code-intro'>ert ~ $ </code>
+          <code className='shell-session code-intro'>bot ~ $ </code>
         </pre>
       </div>
     </div>

@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className='footer'>
         Template from{' '}
-        <a href='#' target='_blank' class='link link--light'>
+        <a href='#' target='_blank' className='link link--light'>
           Codrops
         </a>
         .

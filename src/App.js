@@ -1,3 +1,4 @@
+import React, { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import Navigation from './routes/navigation/navigation.component';
